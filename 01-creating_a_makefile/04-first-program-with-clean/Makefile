@@ -6,7 +6,7 @@ all:
 	@gcc -O2 src/main.c -o $(MYPROGNAME)
 	@echo "Building $(MYPROGNAME) success"
 
-.PHONY:
+.PHONY: clean
 clean:
 	@echo "Cleaning $(MYPROGNAME)"
 	@rm $(MYPROGNAME) -v

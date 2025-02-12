@@ -8,7 +8,7 @@ main:
 	@gcc -O2 src/main.c -o $(MYPROGNAME)
 	@echo "Building $(MYPROGNAME) success"
 
-.PHONY:
+.PHONY: clean buildAndRun
 clean:
 	@echo "Cleaning $(MYPROGNAME)"
 	@rm $(MYPROGNAME) -v
